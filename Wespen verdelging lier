@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>OceanBlue - Zoutwateraquariumbenodigdheden</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-blue-50 text-gray-800 font-sans">
+
+  <!-- Header -->
+  <header class="bg-blue-700 text-white">
+    <div class="max-w-6xl mx-auto flex justify-between items-center p-4">
+      <h1 class="text-2xl font-bold">OceanBlue</h1>
+      <nav>
+        <a href="#producten" class="mr-4 hover:underline">Producten</a>
+        <a href="#prijzen" class="mr-4 hover:underline">Prijzen</a>
+        <a href="#contact" class="hover:underline">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="text-center py-16 bg-blue-100">
+    <h2 class="text-4xl font-bold mb-4">Zoutwateraquarium Benodigdheden</h2>
+    <p class="text-lg">Alles voor jouw zeeaquarium – van koralen tot verlichting</p>
+  </section>
+
+  <!-- Producten -->
+  <section id="producten" class="max-w-5xl mx-auto py-10 px-4">
+    <h3 class="text-2xl font-semibold mb-6 text-center">Productcategorieën</h3>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="bg-white p-4 shadow rounded">
+        <h4 class="font-bold text-lg mb-2">Filters & Pompen</h4>
+        <p>Hoge kwaliteit eiwitafschuimers, stromingspompen en meer.</p>
+      </div>
+      <div class="bg-white p-4 shadow rounded">
+        <h4 class="font-bold text-lg mb-2">Zeezout & Testkits</h4>
+        <p>Professionele zeezouten en testkits voor perfecte waterwaarden.</p>
+      </div>
+      <div class="bg-white p-4 shadow rounded">
+        <h4 class="font-bold text-lg mb-2">Koralen & Rotsen</h4>
+        <p>Levende stenen, zachte koralen en LPS/SPS-koralen.</p>
+      </div>
+      <div class="bg-white p-4 shadow rounded">
+        <h4 class="font-bold text-lg mb-2">Verlichting</h4>
+        <p>LED-verlichting voor optimale groei en kleurweergave.</p>
+      </div>
+      <div class="bg-white p-4 shadow rounded">
+        <h4 class="font-bold text-lg mb-2">Voeding</h4>
+        <p>Voer voor vissen, koralen en ongewervelden.</p>
+      </div>
+      <div class="bg-white p-4 shadow rounded">
+        <h4 class="font-bold text-lg mb-2">Aquarium Accessoires</h4>
+        <p>Netten, magneten, temperatuurregelaars en meer.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Prijslijst -->
+  <section id="prijzen" class="bg-white py-10 px-4">
+    <div class="max-w-4xl mx-auto">
+      <h3 class="text-2xl font-semibold mb-4">Voorbeeld Prijslijst</h3>
+      <table class="w-full border-collapse">
+        <thead class="bg-blue-200">
+          <tr>
+            <th class="border p-2 text-left">Product</th>
+            <th class="border p-2 text-left">Prijs</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="border p-2">Zeezout - 20kg</td>
+            <td class="border p-2">€34,95</td>
+          </tr>
+          <tr>
+            <td class="border p-2">LED verlichting set</td>
+            <td class="border p-2">€129,00</td>
+          </tr>
+          <tr>
+            <td class="border p-2">Eiwitafschuimer</td>
+            <td class="border p-2">€89,50</td>
+          </tr>
+          <tr>
+            <td class="border p-2">Zachte koraalstukjes (vanaf)</td>
+            <td class="border p-2">€15,00</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="bg-blue-100 py-12 px-4">
+    <div class="max-w-3xl mx-auto">
+      <h3 class="text-2xl font-semibold mb-4">Contacteer ons</h3>
+      <form class="space-y-4" action="https://formspree.io/f/your-form-id" method="POST">
+        <input type="text" name="naam" placeholder="Naam" required class="w-full p-2 border rounded" />
+        <input type="email" name="email" placeholder="E-mailadres" required class="w-full p-2 border rounded" />
+        <textarea name="bericht" placeholder="Uw vraag..." rows="4" class="w-full p-2 border rounded"></textarea>
+        <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded">
+          Verstuur
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-blue-700 text-white text-center py-4">
+    <p>&copy; 2025 OceanBlue Zoutwateraquaria – Alle rechten voorbehouden</p>
+  </footer>
+
+</body>
+</html>
